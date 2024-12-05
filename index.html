@@ -5,8 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mortgage-repayment-calculator</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <main>
+        <div id="calculator">
+
+            <div id="calculation-side">
+
+        <form>
+            <div id="top">
+              <h4>Mortage Calculator</h4>
+              <button>Clear All</button>
+            </div>
+
+              <!-- Mortgage Amount -->
+            <div>
+                <label for="mortgage-amount">Mortgage Amount</label><br>
+                <input type="number">
+            </div>
+
+            <!-- term & interest -->
+            <div class="double">
+             <div>
+                <label for="mortgage-amount">Mortgage Term</label><br>
+                <input type="number">
+             </div>
+
+             <div>
+                <label for="mortgage-amount">Interest Rate</label><br>
+                <input type="number">
+             </div>
+            </div>
+
+
+                     <!-- Selecting Option -->
+            <div>
+
+                <label for="mortgage-type">Mortgage Type</label><br>
+
+                <label for="">
+                <button><input type="radio"> Repayment </button>
+                <br>
+                <button><input type="radio"> Interest Only </button>
+                </label>
+                
+            </div>
+
+         </form>
+            </div>
+          
+
+
+
+
+
+
+            <div id="result-side">
+          
+            </div>
+          
+              </div>
+    </main>
+  
+
 </body>
 </html>
