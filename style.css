@@ -41,16 +41,14 @@ display: flex;
     height: 390px;
     width: 365px;
     /* border-bottom-left-radius: 60px; */
-    border-radius: 15px 15px 15px 60px;
+    border-radius: 0px 15px 15px 60px;
 }
-
-
 
 
 /* FORMS  */
 
 /* Learn form styling  */
-
+ 
 #top{
     display:flex;
     align-items:baseline;
@@ -66,7 +64,45 @@ display: flex;
     font-family: sans-serif;
 }
 
-.double{
-    display: flex;
-    gap: 5px;
+
+.all-content{
+    margin-top: 30px;
+    margin-left: 30px;
 }
+
+
+#mortgage-amount > label{
+ font-size: small;
+ font-family: sans-serif;
+}
+
+#mortgage-amount > input{
+/* width: 80%; */
+width: 17rem;
+padding: 10px;
+border-radius: 5px;
+border:1px solid #133040;
+}
+
+#double{
+     display: flex;
+     gap: 11px;
+     
+}
+ 
+  #term{
+ width: 7.5rem;
+ padding: 10px;
+ border:1px solid #133040;
+ border-radius: 5px;
+ }  
+ 
+ #interest{
+    width: 7.5rem;
+    padding: 10px;
+    border:1px solid #133040;
+    border-radius: 5px;
+ }  
+
+
+

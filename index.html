@@ -6,7 +6,11 @@
     <title>mortgage-repayment-calculator</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <main>
         <div id="calculator">
@@ -14,27 +18,36 @@
             <div id="calculation-side">
 
         <form>
+             
             <div id="top">
-              <h4>Mortage Calculator</h4>
+              <h3>Mortgage Calculator</h3>
               <button>Clear All</button>
             </div>
 
+            <div class="all-content">
               <!-- Mortgage Amount -->
-            <div>
-                <label for="mortgage-amount">Mortgage Amount</label><br>
-                <input type="number">
+            <div id="mortgage-amount">
+                
+                    <label for="mortgage-amount">Mortgage Amount</label>
+                    <br>
+                    <input  type="number">
+                 
+                 
             </div>
 
             <!-- term & interest -->
-            <div class="double">
+            <div id="double"> 
+                
              <div>
-                <label for="mortgage-amount">Mortgage Term</label><br>
-                <input type="number">
+                <!-- <label for="mortgage-amount">Mortgage Term</label> -->
+                <br>
+                <input  id="term" type="number">
              </div>
 
              <div>
-                <label for="mortgage-amount">Interest Rate</label><br>
-                <input type="number">
+                <!-- <label for="mortgage-amount">Interest Rate</label> -->
+                <br>
+                <input  id="interest" type="number">
              </div>
             </div>
 
@@ -52,6 +65,7 @@
                 
             </div>
 
+        </div>
          </form>
             </div>
           
@@ -70,4 +84,5 @@
   
 
 </body>
+
 </html>
